@@ -23,7 +23,7 @@ body {
     background-size: cover;
     background-blend-mode: overlay;
 }
-.banner-content{
+.banner-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,9 +31,8 @@ body {
     align-items: center;
 }
 .banner-content p,
-h1 {
-    color: #ffffff;
-    text-align: center;
+.banner-content h1 {
+    color: white;
 }
 .banner-content p {
     font-size: 32px;
@@ -42,6 +41,7 @@ h1 {
 .banner-content h1 {
     font-size: 72px;
     font-weight: 900;
+    text-align: center;
 }
 
 /* .65% section style starts here */
@@ -56,24 +56,21 @@ h1 {
     justify-content: start;
     align-items: center;
     text-align: center;
-    
 }
-.second-section-content h1{
+.second-section-content h1 {
     color: rgb(255, 0, 0);
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
-
 }
-.second-section-content p{
+.second-section-content p {
     color: rgb(255, 0, 0);
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     margin-top: 15px;
-
 }
-.second-section-content h3{
+.second-section-content h3 {
     color: rgb(7, 2, 17);
     font-family: Inter;
     font-size: 48px;
@@ -87,4 +84,71 @@ h1 {
     width: 100%;
     height: 100%;
     margin-top: 30px;
+}
+
+/* mid night party style start here */
+.midnight-party-container {
+    width: 1320px;
+    height: 600px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 90px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('/images/Vectorrr.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+.leftside-content {
+    width: 50%;
+    height: 600px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.leftside-content-section {
+    margin: 25px 10px 0px 90px;
+    /* border: 2px solid green; */
+}
+.leftside-content h1 {
+    color: #ffff;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 0px 20px;
+}
+.leftside-content p {
+    color: #ffff;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+#midnight-button {
+    color: #fff;
+    font-family: Inter;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.rightside-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red;     */
+    align-items: center;
+}
+.rightside-content-section {
+    width: 349.16px;
+    height: 464.65px;
+    /* border: 2px solid red; */
+    margin: 40px 70px 0px 30px;
+}
+.rightside-content-section img {
+    width: 100%;
+    height: 100%;
 }
