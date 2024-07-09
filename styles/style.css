@@ -405,8 +405,10 @@ body {
     font-family: Inter;
     font-weight: 400;
     margin: 0 auto;
+    margin-bottom: 50px;
     border-radius: 50px;
-    height: 100px;
+    height: 90px;
+    width: 700px;
 }
 #subscribe-input input[type='email'] {
     height: 64px;
